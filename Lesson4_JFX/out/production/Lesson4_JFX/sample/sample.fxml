@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" style="-fx-background-color: #F98B00;" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <BorderPane prefHeight="500.0" prefWidth="400.0">
+         <center>
+            <GridPane fx:id="gridField" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+              </rowConstraints>
+               <BorderPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </BorderPane.margin>
+               <children>
+                  <Button fx:id="btn00" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+                  <Button fx:id="btn01" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+                  <Button fx:id="btn02" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+                  <Button fx:id="btn10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+                  <Button fx:id="btn11" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+                  <Button fx:id="btn12" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+                  <Button fx:id="btn20" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+                  <Button fx:id="btn21" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+                  <Button fx:id="btn22" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#click" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </GridPane.margin></Button>
+               </children>
+            </GridPane>
+         </center>
+         <top>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickNewGame" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #000000;" text="New Game" textFill="#51ff06" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="44.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </BorderPane.margin></Button>
+         </top>
+      </BorderPane>
+   </children>
+</GridPane>
